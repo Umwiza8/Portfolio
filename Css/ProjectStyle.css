@@ -1,159 +1,17 @@
-.links li a {
-    color: #653573; /* Set the text color to white */
- /* Remove underline from links */
-}
-
-/* This will make only the "Get Started" link text white */
-#getstarted a {
-    color: black;
-}
-
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 20px;
-  padding: 0;
-  margin: 0;
-  
-}
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.landing-page header {
-  min-height: 80px;
-  display: flex;
-}
-
-  .landing-page header {
-    min-height: auto;
-    display: initial;
-  }
-
-.landing-page header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.landing-page header .logo {
-  color: #5d5d5d;
-  font-style: italic;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.landing-page header .links {
-  display: flex;
-  align-items: center;
-}
-
-.landing-page header .links li {
-  margin-left: 30px;
-  color: #5d5d5d;
-  cursor: pointer;
-  transition: .3s;
-}
-
-.landing-page header .links li:last-child {
-  border-radius: 20px;
-  padding: 10px 20px;
-  color: #FFF;
-  background-color: #6c63ff;
-}
-
 
 body {
   font-family:serif;
-  
+
   text-align:center
 }
 .image-grid{
   display:flex;
   justify-content:space-between;
-  margin-top:50px
-}
-.image-grid img{
-  width:30%;
-  margin:0;
-  border: 2px ;
-  border-radius: 12px;
-  padding: 5px;
-  
-    
-}
-.footer-basic {
-  padding:10px 0;
-  background-color:#19e366;
-  color:#4b4c4d;
-  margin-top:40px;
-}
-
-.footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+  margin-top:50px;
+  padding-bottom:400px;
  
 }
 
-.footer-basic li {
-  padding:0 10px;
-}
-
-.footer-basic ul a {
-  color:#653573;
-  text-decoration:none;
-  opacity:0.8;
-  
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
-}
-
-.footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
-}
-
-.footer-basic .social  a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:#070808;
-  opacity:0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity:0.9;
-}
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
-}
 h1{
   text-align:center;
 }

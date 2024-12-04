@@ -114,7 +114,7 @@ ul {
   font-size: 20px;}
   
   .footer-basic  {
-  padding:10px 0;
+    padding:10px 0;
   background-color:#19e366;
   color:#4b4c4d;
 }
@@ -125,22 +125,20 @@ ul {
   font-size:18px;
   line-height:1.6;
   margin-bottom:0;
- 
+
 }
 
 .footer-basic li {
-  padding:0 10px;
+ padding:10px;
 }
-
 .footer-basic ul a {
   color:#653573;
   text-decoration:none;
-  opacity:0.8;
-  
+  opacity:1;
 }
 
 .footer-basic ul a:hover {
-  opacity:1;
+  opacity:0.5;
 }
 
 .footer-basic .social {
@@ -159,11 +157,11 @@ ul {
   border:1px solid #ccc;
   margin:0 8px;
   color:#070808;
-  opacity:0.75;
+  opacity:1;
 }
 
 .footer-basic .social > a:hover {
-  opacity:0.9;
+  opacity:0.5;
 }
 
 .footer-basic .copyright {
